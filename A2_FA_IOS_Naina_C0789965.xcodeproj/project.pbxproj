@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A6A59C325C8AC0E004B35B6 /* ProductsModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A6A59BD25C8AC0D004B35B6 /* ProductsModel.xcdatamodeld */; };
+		4A6A59C425C8AC0E004B35B6 /* AddProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6A59BF25C8AC0D004B35B6 /* AddProductTableViewController.swift */; };
+		4A6A59C525C8AC0E004B35B6 /* AddProviderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6A59C025C8AC0D004B35B6 /* AddProviderViewController.swift */; };
+		4A6A59C625C8AC0E004B35B6 /* ProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6A59C125C8AC0E004B35B6 /* ProductTableViewController.swift */; };
+		4A6A59C725C8AC0E004B35B6 /* GetProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6A59C225C8AC0E004B35B6 /* GetProductsTableViewController.swift */; };
 		4AE54D0225C85820008DEE02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE54D0125C85820008DEE02 /* AppDelegate.swift */; };
 		4AE54D0425C85820008DEE02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE54D0325C85820008DEE02 /* SceneDelegate.swift */; };
-		4AE54D0625C85820008DEE02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE54D0525C85820008DEE02 /* ViewController.swift */; };
 		4AE54D0925C85820008DEE02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE54D0725C85820008DEE02 /* Main.storyboard */; };
 		4AE54D0B25C85820008DEE02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AE54D0A25C85820008DEE02 /* Assets.xcassets */; };
 		4AE54D0E25C85820008DEE02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE54D0C25C85820008DEE02 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A6A59BE25C8AC0D004B35B6 /* ProductsModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProductsModel.xcdatamodel; sourceTree = "<group>"; };
+		4A6A59BF25C8AC0D004B35B6 /* AddProductTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddProductTableViewController.swift; sourceTree = "<group>"; };
+		4A6A59C025C8AC0D004B35B6 /* AddProviderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddProviderViewController.swift; sourceTree = "<group>"; };
+		4A6A59C125C8AC0E004B35B6 /* ProductTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewController.swift; sourceTree = "<group>"; };
+		4A6A59C225C8AC0E004B35B6 /* GetProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetProductsTableViewController.swift; sourceTree = "<group>"; };
 		4AE54CFE25C8581F008DEE02 /* A2_FA_IOS_Naina_C0789965.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A2_FA_IOS_Naina_C0789965.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE54D0125C85820008DEE02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AE54D0325C85820008DEE02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4AE54D0525C85820008DEE02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4AE54D0825C85820008DEE02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4AE54D0A25C85820008DEE02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AE54D0D25C85820008DEE02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,8 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				4AE54D0125C85820008DEE02 /* AppDelegate.swift */,
+				4A6A59BF25C8AC0D004B35B6 /* AddProductTableViewController.swift */,
+				4A6A59C025C8AC0D004B35B6 /* AddProviderViewController.swift */,
+				4A6A59C225C8AC0E004B35B6 /* GetProductsTableViewController.swift */,
+				4A6A59BD25C8AC0D004B35B6 /* ProductsModel.xcdatamodeld */,
+				4A6A59C125C8AC0E004B35B6 /* ProductTableViewController.swift */,
 				4AE54D0325C85820008DEE02 /* SceneDelegate.swift */,
-				4AE54D0525C85820008DEE02 /* ViewController.swift */,
 				4AE54D0725C85820008DEE02 /* Main.storyboard */,
 				4AE54D0A25C85820008DEE02 /* Assets.xcassets */,
 				4AE54D0C25C85820008DEE02 /* LaunchScreen.storyboard */,
@@ -137,9 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AE54D0625C85820008DEE02 /* ViewController.swift in Sources */,
+				4A6A59C725C8AC0E004B35B6 /* GetProductsTableViewController.swift in Sources */,
 				4AE54D0225C85820008DEE02 /* AppDelegate.swift in Sources */,
 				4AE54D0425C85820008DEE02 /* SceneDelegate.swift in Sources */,
+				4A6A59C325C8AC0E004B35B6 /* ProductsModel.xcdatamodeld in Sources */,
+				4A6A59C425C8AC0E004B35B6 /* AddProductTableViewController.swift in Sources */,
+				4A6A59C625C8AC0E004B35B6 /* ProductTableViewController.swift in Sources */,
+				4A6A59C525C8AC0E004B35B6 /* AddProviderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +355,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4A6A59BD25C8AC0D004B35B6 /* ProductsModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4A6A59BE25C8AC0D004B35B6 /* ProductsModel.xcdatamodel */,
+			);
+			currentVersion = 4A6A59BE25C8AC0D004B35B6 /* ProductsModel.xcdatamodel */;
+			path = ProductsModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4AE54CF625C8581F008DEE02 /* Project object */;
 }
